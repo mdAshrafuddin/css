@@ -1,0 +1,27 @@
+html{
+	background-color:black;
+}
+body{
+	background-color:red;
+	width:600px;
+	margin:0 auto;
+	padding:0px 20px 20px 20px;
+    border:2px solid white;
+}
+$align-center:center;
+h1{
+	color:white;
+	text-align:$align-center;
+	text-shadow: 3px 3px 1px black;
+}
+img{
+	text-align:$align-center;
+	display:block;
+	margin:0 auto;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}

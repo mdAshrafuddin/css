@@ -1,0 +1,24 @@
+html{
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+h1{
+  color: red;
+  background: black;
+  padding: 10px;
+   background-style: none;
+}
+p{
+  color: red;
+}
+p, li {
+  text-decoration: underline;
+}
+@media(min-width: 801px){
+  body {
+    margin: 0 auto;
+    width: 800px;
+    background: black;
+  }
+}
